@@ -1,0 +1,8 @@
+# Not needed for the Docker build
+docs/
+.github/
+docker-compose*.yml
+config.example.yaml
+CHANGELOG.md
+changelog.config.mjs
+crowdin.yml

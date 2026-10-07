@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "deployment": {
+    "id": "658fc232-b45d-48ea-b4bb-5f57643b0064",
+    "name": "custom-user-app-c8aupo"
+  },
+  "user_values": {
+    "hostname": "files.prutser.freepod.eu"
+  }
+}
