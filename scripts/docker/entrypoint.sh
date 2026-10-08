@@ -45,7 +45,10 @@ if [ -n "$AWS_ENDPOINT_URL_S3" ] && [ -n "$S3_BUCKET" ]; then
 general:
   appUrl: "${PV_APP_URL:-https://files.prutser.freepod.eu}"
 security:
-  allowRegistration: "${PV_ALLOW_REGISTRATION:-true}"
+  allowRegistration: "${PV_ALLOW_REGISTRATION:-false}"
+  allowUnauthenticatedShares: "${PV_ALLOW_UNAUTHENTICATED_SHARES:-false}"
+share:
+  maxSize: "${PV_MAX_SIZE:-100000000000}"
 s3:
   enabled: true
   endpoint: "${AWS_ENDPOINT_URL_S3}"
